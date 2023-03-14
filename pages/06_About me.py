@@ -14,5 +14,5 @@ with st.sidebar:
     components.html(embed_component['linkedin'], height=215)
 
 st.sidebar.write('📧: mathias.rostagno@gmail.com')
-pdfFile = open('Data/Mathias_Rostagno_Resume.PDF', 'rb')
+pdfFile = open('Data/Mathias_Rostagno_Resume.pdf', 'rb')
 st.sidebar.download_button('download resume', pdfFile, file_name='Mathias_Rostagno_Resume.pdf',mime='pdf')
