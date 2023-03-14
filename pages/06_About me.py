@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title='Mathias Rostagno\'s portfolio' ,layout="wide",page_icon='bar_chart', initial_sidebar_state='expanded')
 
 st.subheader('Mathias Rostagno - Data Analyst')
-Certification = Image.open('data/Certification.png')
+Certification = Image.open('Data/Certification.png')
 st.image(Certification, caption='Professional Certification')
 
 with st.sidebar:

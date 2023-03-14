@@ -6,7 +6,7 @@ st.set_page_config(page_title='Google Drive', layout="wide",page_icon='bar_chart
 pdfFile = open('Data/dvdrental.sql', 'rb')
 st.sidebar.download_button('Download original database', pdfFile, file_name='dvdrental.sql', mime='sql')
 
-googledrive = Image.open('Screenshots/drive.png')
+googledrive = Image.open('Screenshots/Drive.png')
 connect = Image.open('Screenshots/connect.png')
 tableauconnect = Image.open('Screenshots/tableauconnect.png')
 Films = pd.read_csv('Data/Films.csv')
