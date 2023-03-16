@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 st.markdown('### The dashboard is designed to provide an easy-to-understand overview of customer rental behavior. '
             'It consists of two different charts, each providing a different view of the data, and three tables.')
-st.markdown('### IT provides a powerful tool for analyzing and understanding customer rental behavior in '
+st.markdown('### It provides a powerful tool for analyzing and understanding customer rental behavior in '
             'the "dvdrental" database. By providing an easy-to-use interface for exploring the data, '
             'the dashboard helps to uncover insights that might have been difficult to identify through other means.')
 
